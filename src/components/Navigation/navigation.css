@@ -1,9 +1,9 @@
 .navigation {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(12px);
     border-radius: 16px;
     padding: 1rem 2rem;
-    margin: 1rem auto;
+    margin: 2rem auto;
     width: fit-content;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   }
@@ -16,18 +16,23 @@
     padding: 0;
   }
   
+  .nav-list.flex-col {
+    flex-direction: column;
+  }
+  
   .nav-item {
     position: relative;
   }
   
   .nav-link {
     display: inline-block;
-    padding: 0.5rem 1.2rem;
+    padding: 0.6rem 1.4rem;
     border-radius: 999px;
     text-decoration: none;
     font-weight: 600;
+    font-size: 1rem;
     color: #333;
-    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    background: linear-gradient(145deg, #f0f0f0, #ffffff);
     transition: all 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   }
