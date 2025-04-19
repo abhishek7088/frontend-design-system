@@ -1,0 +1,40 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Introduction" />
+
+# Design System Documentation
+
+Welcome to our design system documentation. This system is built with:
+
+- React
+- TypeScript
+- TailwindCSS
+- Storybook
+
+---
+
+## 🚀 Getting Started
+
+To use components from this system:
+
+```tsx
+import { Button } from '../components/Button';
+import { Badge } from '../components/Badge';
+import { Navigation } from '../components/Navigation';
+
+function Example() {
+  return (
+    <div>
+      <Navigation
+        items={[
+          { label: 'Home', href: '/' },
+          { label: 'About', href: '/about' },
+          { label: 'Contact', href: '/contact' }
+        ]}
+        orientation="horizontal"
+      />
+      <Button variant="primary">Click me</Button>
+      <Badge variant="success">New</Badge>
+    </div>
+  );
+}
