@@ -1,4 +1,4 @@
-import{j as n}from"./jsx-runtime-D_zvdyIk.js";import{useMDXComponents as o}from"./index-7_urXZbD.js";import"./preview-2-mRBR1i.js";import{c as i}from"./DocsRenderer-CFRXHY34-Sw9g588Y.js";import"./index-CdUicJsP.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-BUCC0wlN.js";import"./react-18-BdfW8bwK.js";import"./index-CXQShRbs.js";import"./index-DrFu-skq.js";const{definePreview:j}=__STORYBOOK_MODULE_PREVIEW_API__;function r(e){const t={code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",p:"p",pre:"pre",ul:"ul",...o(),...e.components};return n.jsxs(n.Fragment,{children:[n.jsx(i,{title:"Introduction"}),`
+import{j as n}from"./jsx-runtime-D_zvdyIk.js";import{useMDXComponents as o}from"./index-7_urXZbD.js";import"./preview-BRHi_fT2.js";import"./DocsRenderer-CFRXHY34-eNJ4W_69.js";import{c as i}from"./index-CKcEy8Jn.js";import"./index-CdUicJsP.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-Cef8ex3u.js";import"./react-18-DroeUvO3.js";import"./index-PxHYSiC3.js";import"./index-CXQShRbs.js";import"./index-DrFu-skq.js";const{definePreview:f}=__STORYBOOK_MODULE_PREVIEW_API__;function r(e){const t={code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",p:"p",pre:"pre",ul:"ul",...o(),...e.components};return n.jsxs(n.Fragment,{children:[n.jsx(i,{title:"Introduction"}),`
 `,n.jsx(t.h1,{id:"design-system-documentation",children:"Design System Documentation"}),`
 `,n.jsx(t.p,{children:"Welcome to our design system documentation. This system is built with:"}),`
 `,n.jsxs(t.ul,{children:[`
@@ -30,4 +30,4 @@ function Example() {\r
     </div>\r
   );\r
 }
-`})})]})}function g(e={}){const{wrapper:t}={...o(),...e.components};return t?n.jsx(t,{...e,children:n.jsx(r,{...e})}):r(e)}export{g as default};
+`})})]})}function y(e={}){const{wrapper:t}={...o(),...e.components};return t?n.jsx(t,{...e,children:n.jsx(r,{...e})}):r(e)}export{y as default};
